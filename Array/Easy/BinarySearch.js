@@ -1,3 +1,5 @@
+// an algorithm with O(log n) runtime complexity.
+
 var binarySearch = function(nums, target) {
     let lo = 0, hi = nums.length-1;
     while (lo < hi) {
